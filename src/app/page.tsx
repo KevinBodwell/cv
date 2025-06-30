@@ -6,8 +6,8 @@ export const dynamic = 'force-static';
 export default function HomePage() {
   return (
     <main className="min-h-screen">
-      <section className="flex flex-col items-center justify-center text-center py-24 px-4">
-        <div className="w-40 h-40 relative mb-6">
+      <section className="flex flex-col items-center justify-center text-center py-6 px-4">
+        <div className="w-60 h-60 relative mb-6">
           <Image
             src="/kevin-cody-fun.png"
             alt="Kevin Bodwell"
@@ -20,7 +20,7 @@ export default function HomePage() {
 
         <h1 className="text-5xl font-extrabold mb-4">Hi, I’m Kevin Bodwell</h1>
         <p className="text-xl max-w-xl mb-6">
-          Full-stack developer, technical leader, and creative builder. I bring ideas to life with code — from Magento and ecommerce to home automation and game design.
+          Seasoned engineering leader and software architect with over 25 years of experience across e-commerce, manufacturing automation, industrial maintenance, and IT infrastructure. Proven ability to guide complex projects from conception to deployment, lead cross-functional teams, and implement innovative technical solutions that streamline operations and improve end-user experience. Fast learner with a passion for adopting new technologies and enhancing developer experience through automation. Combines hands-on development with strategic planning and systems thinking. 
         </p>
         <a
           href="#projects"
@@ -29,11 +29,14 @@ export default function HomePage() {
           See My Work
         </a>
       </section>
-      <section id="about" className="max-w-4xl mx-auto py-20 px-4">
+      <section id="about" className="max-w-4xl mx-auto py-12 px-4">
         <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
         <div className="text-lg leading-relaxed terminal space-y-4">
           <p>
-            I’m Kevin Bodwell — a developer, builder, and creative problem solver based in Florida. By day, I lead ecommerce and Magento development at Ripple Junction. By night, I run my own projects, blending tech, design, and storytelling into things people love to use or wear.
+            I have always been a Jack of all trades.  I love to learn new things, and I love to build things.  I have a passion for technology, design, and storytelling, and I enjoy blending these elements into projects that people love to use or wear.
+          </p>
+          <p>
+            I am a developer, builder, and creative problem solver based in Florida.  Since 2017 I have been primarily working inside small and medium sized businesses working to make sure their eCommerce presence is top notch.  Most this has been developing and maintaning Magento 2 / Adobe Commerce sites with several hosted on Adobe Commerce Cloud infrastructure.
           </p>
           <p>
             Whether I’m building scalable web apps, debugging gnarly integration bugs, or creating a shirt brand from fictional national parks, I bring a hands-on, future-forward approach to every project.
@@ -43,7 +46,7 @@ export default function HomePage() {
           </p>
         </div>
       </section>
-      <section id="skills" className="max-w-4xl mx-auto py-20 px-4">
+      <section id="skills" className="max-w-4xl mx-auto py-12 px-4">
         <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
         <div className="flex flex-wrap gap-3 justify-center text-sm">
           {[
@@ -78,24 +81,18 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-      <section id="projects" className="max-w-5xl mx-auto py-20 px-4">
+      <section id="projects" className="max-w-5xl mx-auto py-12 px-4">
         <h2 className="text-3xl font-bold mb-6 text-center">Featured Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {[
             {
-              title: 'Magento Site Optimization',
-              description:
-                'Improved load speed by 40%, implemented CI/CD, and upgraded infrastructure for Ripple Junction’s ecommerce platform.',
-              tags: ['Magento 2', 'Performance', 'CI/CD', 'New Relic'],
-              href: '/projects/magento-optimization',
-            },
-            {
-              title: 'Parclore Adventure Game',
-              description:
-                'Designed a physical-digital hybrid game using AI trivia, GPS tracking, and mobile web UX to create park-based team challenges.',
-              tags: ['Next.js', 'PostgreSQL', 'Redis', 'Game Design'],
-              href: '/projects/parclore',
-            },
+              title: 'Pumpkin Eyes',
+              company: 'Personal Project',
+              date: 'September 2024 - Present',
+              description: 'Building a pumpkin with animatronic eyes that follow you around the room.  The project is a fun exploration of hardware and software integration.',
+              tags: ['Animatronics', 'Hardware', 'Software', 'Raspberry Pi', 'Ardiono', 'OpenCV', 'Computer Vision', 'Object recognition'],
+              href: '/projects/pumpkin-eyes',
+            }
           ].map((project) => (
             <a
               key={project.title}
@@ -103,6 +100,9 @@ export default function HomePage() {
               className="block bg-terminal-dk border border-gray-200 rounded-xl shadow-md p-6 hover:shadow-lg transition"
             >
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+              <p className="text-sm text-gray-400 mb-2">
+                {project.company} &middot; {project.date}
+              </p>              
               <p className="text-gray-300 mb-3">{project.description}</p>
               <div className="flex flex-wrap gap-2 text-sm">
                 {project.tags.map((tag) => (

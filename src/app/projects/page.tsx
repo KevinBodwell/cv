@@ -2,35 +2,40 @@
 export const dynamic = 'force-static';
 
 const allProjects = [
-  {
-    title: 'Magento Site Optimization',
-    description:
-      'Improved load speed by 40%, implemented CI/CD, and upgraded infrastructure for Ripple Junction’s ecommerce platform.',
-    tags: ['Magento 2', 'Performance', 'CI/CD', 'New Relic'],
-    href: '/projects/magento-optimization',
+    {
+    title: 'Shopify Site Migration',
+    company: 'Ripple Junction',
+    date: 'April 2025 - May 2025',
+    description: 'Migrated Direct to Consumer (DTC) site from Magento 2 to Shopify, improving performance and reducing costs in under 30 days.',
+    tags: ['Shopify', 'Migration', 'Performance'],
+    href: '/projects/shopify-site-migration',
   },
   {
-    title: 'Parclore Adventure Game',
-    description:
-      'Hybrid GPS + trivia game designed for physical parks, powered by AI, Redis, and Next.js with real-time scoring.',
-    tags: ['Next.js', 'Redis', 'Game Design', 'AI'],
-    href: '/projects/parclore',
+    title: 'Magento 2 Site Rescue',
+    company: 'Ripple Junction',
+    date: 'March 2023 - July 2023',
+    description: 'Rescue a Magento 2 site from a 3rd party agency relationship gone south.  Migrated to Adobe Commerce Cloud, improved performance, and ensured zero unplanned downtime.',
+    tags: ['Magento 2', 'Performance', 'New Relic'],
+    href: '/projects/magento-site-rescue',
   },
   {
-    title: 'Custom Fastly ACL Tool',
-    description:
-      'Built a secure web UI to update Magento admin IP ACLs via Fastly API using time-based tokens and API keys.',
-    tags: ['Fastly', 'Security', 'API Design'],
-    href: '/projects/fastly-acl-tool',
+    title: 'Pumpkin Eyes',
+    company: 'Personal Project',
+    date: 'September 2024 - Present',
+    description: 'Building a pumpkin with animatronic eyes that follow you around the room.  The project is a fun exploration of hardware and software integration.',
+    tags: ['Animatronics', 'Hardware', 'Software', 'Raspberry Pi', 'Ardiono', 'OpenCV', 'Computer Vision', 'Object recognition'],
+    href: '/projects/pumpkin-eyes',
   },
   {
-    title: 'Galactic Scribble Ecommerce',
-    description:
-      'Launched a print-on-demand storefront using Shopify and custom integrations with Midjourney mockups and Instagram ads.',
-    tags: ['Shopify', 'Print on Demand', 'Branding'],
-    href: '/projects/galactic-scribble',
-  },
+    title: 'Magic Box',
+    company: 'Western Dovetail',
+    date: 'July 2009',
+    description: 'The magic box is a spectacle of wooden boxes that rise from within themselves to show all the different joinery we could do.  The project was a collaboration with the owner of Western Dovetail.',
+    tags: ['Hardware', 'woodworking', 'Dovetail Joinery', 'Zip Chain Actuator', 'Relay Logic Control'],
+    href: '/projects/wd-magic-box',
+  }  
 ];
+
 
 export default function ProjectsPage() {
   return (
@@ -43,7 +48,10 @@ export default function ProjectsPage() {
             href={project.href}
             className="block bg-terminal-dk border border-gray-200 rounded-xl shadow-md p-6 hover:shadow-lg transition"
           >
-            <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+            <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
+              <p className="text-sm text-gray-400 mb-2">
+                {project.company} &middot; {project.date}
+              </p>
             <p className="text-gray-300 mb-3">{project.description}</p>
             <div className="flex flex-wrap gap-2 text-sm">
               {project.tags.map((tag) => (
