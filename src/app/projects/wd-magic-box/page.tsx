@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 export const dynamic = 'force-static';
 
 export default function MagicBoxPage() {
@@ -14,7 +15,7 @@ export default function MagicBoxPage() {
       <p>
         The actuator was powered with a 12 volt motor and Allen Bradely relays and timers along with an off the shelf 4 channel car alarm/door remote.  I drew up the logic and wired the display while Max figured out how to attached all the boxes and support the fully extended towel.
       </p>
-      <div className="relative w-full pb-[56.25%] mb-6">
+      <div className="relative w-full pb-[56.25%] mb-4 mt-6">
         <iframe
           className="absolute top-0 left-0 w-full h-full rounded-lg"
           src="https://www.youtube.com/embed/zUK3saIoHOA"
@@ -26,6 +27,18 @@ export default function MagicBoxPage() {
         
       </div>
       <p>Video from a Home Show in Sacramento 2010</p>
+
+      <div className="w-182 h-182 relative mb-4 mt-6">
+        <Image
+          src="/awfs-2009-1.jpg"
+          alt="AWFS 2009 Magic Box fully extended"
+          fill
+          className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
+          sizes="160px"
+          priority
+        />
+      </div>
+      <p>Magic box full extended at AWFS show in 2009</p>
       <ul className="list-disc pl-5 space-y-2 text-gray-400 py-5">
         <li>Relay Logic Control</li>
         <li>Wireless Control</li>

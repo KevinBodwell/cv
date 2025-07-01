@@ -3,6 +3,10 @@ import Image from 'next/image';
 
 export const dynamic = 'force-static';
 
+import allProjects from '@/data/projects';
+
+const homepageProjects = allProjects.filter((p) => p.homepage);
+
 export default function HomePage() {
   return (
     <main className="min-h-screen">
@@ -84,16 +88,7 @@ export default function HomePage() {
       <section id="projects" className="max-w-5xl mx-auto py-12 px-4">
         <h2 className="text-3xl font-bold mb-6 text-center">Featured Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          {[
-            {
-              title: 'Pumpkin Eyes',
-              company: 'Personal Project',
-              date: 'September 2024 - Present',
-              description: 'Building a pumpkin with animatronic eyes that follow you around the room.  The project is a fun exploration of hardware and software integration.',
-              tags: ['Animatronics', 'Hardware', 'Software', 'Raspberry Pi', 'Ardiono', 'OpenCV', 'Computer Vision', 'Object recognition'],
-              href: '/projects/pumpkin-eyes',
-            }
-          ].map((project) => (
+          {homepageProjects.map((project) => (
             <a
               key={project.title}
               href={project.href}
