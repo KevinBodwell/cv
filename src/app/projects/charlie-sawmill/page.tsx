@@ -6,7 +6,7 @@ export default function CharlieSawmillPage() {
     <main className="max-w-3xl mx-auto py-16 px-4">
       <h1 className="text-4xl font-bold mb-4">Milling Lumber</h1>
       <p className="text-gray-300 text-lg mb-6">
-        In 2015, my brother Charlie and I milled some Ash he got from a local tree company.  We had a lot of fun milling it, and we both made a few projects with the wood, Charlie made a table top he used in his dining room for several years and I've still got a couple think slabs waiting for a project.
+        In 2015, my brother Charlie and I milled some Ash he got from a local tree company.  We had a lot of fun milling it, and we both made a few projects with the wood, Charlie made a table top he used in his dining room for several years and I have still got a couple think slabs waiting for a project.
       </p>
 
       <div className="w-182 h-182 relative mb-4 mt-6">

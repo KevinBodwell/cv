@@ -1,4 +1,4 @@
-import Link from 'next/link';
+//import Link from 'next/link';
 import Image from 'next/image';
 export const dynamic = 'force-static';
 
@@ -38,7 +38,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
       <p className="pb-6">Broken water pipe between Jointers Shop and Sawmill</p>
       
       <p>
-        Being in the position of a "non-producer" in that I didn't make product that needed to be shipped to customers, and the office staff could handle the phones and quoting, I became the lead in the recovery effort.
+        Being in the position of a &quot;non-producer&quot; in that I didn&apos;t make product that needed to be shipped to customers, and the office staff could handle the phones and quoting, I became the lead in the recovery effort.
       </p>
 
       <p>
@@ -46,7 +46,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
       </p>
 
       <p>
-        We were able to secure a new space on Mare Island only a few hundred yards from the old building, however 1 hiccup.  I was only allowed inside the old building 2 days per week, and only 4 hours at a time on those 2 days and only 4 people at a time.  So everything had to be choreographed and planned out to get the equipment and materials we needed to move into the new space, people, trucks, forklift, ladders, all the tools we may need.  Everyone had to know exactly what they were responsible for, and had to be sure to touch nothing they didn't have to.
+        We were able to secure a new space on Mare Island only a few hundred yards from the old building, however 1 hiccup.  I was only allowed inside the old building 2 days per week, and only 4 hours at a time on those 2 days and only 4 people at a time.  So everything had to be choreographed and planned out to get the equipment and materials we needed to move into the new space, people, trucks, forklift, ladders, all the tools we may need.  Everyone had to know exactly what they were responsible for, and had to be sure to touch nothing they did not have to.
       </p>
 
       <div className="w-182 h-182 relative mb-4 mt-6">
@@ -71,7 +71,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
           priority
         />
       </div>
-      <p className="pb-6">Thanks to some neighbors with a big lift, we were able to move the 3 head 53" width belt sander to the new building in one afternoon.  For this move, we have to disconnect and jack it up high enough to fit the forks on the previous time alloted to go into the building, so all in all moving this just 400 yards took close to 2 weeks.</p>
+      <p className="pb-6">Thanks to some neighbors with a big lift, we were able to move the 3 head 53&quot; width belt sander to the new building in one afternoon.  For this move, we have to disconnect and jack it up high enough to fit the forks on the previous time alloted to go into the building, so all in all moving this just 400 yards took close to 2 weeks.</p>
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
@@ -98,7 +98,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
       <p className="pb-6">The new space just down the road.  What it hard to see is the earthquake also damaged this building, it would be almost 3 months before we were allowed in the back 40 feet as that upper part of the wall had separated from the lower concrete portion.</p>
 
       <p>
-        This project was many projects in itself, I'm only going to show a small snippet of everything I did, and only the things I was the lead on, or in most cases, I was the only person working on.
+        This project was many projects in itself, I am only going to show a small snippet of everything I did, and only the things I was the lead on, or in most cases, I was the only person working on.
       </p>
 
       <p>The new building had these pneumatic operated louvers on the roof, they were switched with solenoid valves and relayes.  Since much of the other air handling equipment had been removed, I had to troubshoot the existing and then augment with my own ideas.</p>
@@ -204,7 +204,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
           priority
         />
       </div>
-      <p className="pb-1">There was a lot of conduit to bend, from 3/4" all the way up to 2"</p>
+      <p className="pb-1">There was a lot of conduit to bend, from 3/4&quot; all the way up to 2&quot;</p>
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
@@ -228,7 +228,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
           priority
         />
       </div>
-      <p className="pb-1">Dust Collection had to be re-engineered and reinstall as well.  The old shop used the building's original 24" dust collector installed by the Navy.  We had to scrounge whatever dust collectors we could find for cheap and install them machine by machine.</p>
+      <p className="pb-1">Dust Collection had to be re-engineered and reinstall as well.  The old shop used the building&apos;s original 24&quot; dust collector installed by the Navy.  We had to scrounge whatever dust collectors we could find for cheap and install them machine by machine.</p>
 
       <p>Code compliance also meant labeling everything properly.</p>
 
