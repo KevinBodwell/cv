@@ -13,7 +13,7 @@ export default function HomePage() {
       <section className="flex flex-col items-center justify-center text-center py-6 px-4">
         <div className="w-60 h-60 relative mb-6">
           <Image
-            src="/kevin-cody-fun.png"
+            src="https://cdn.bodwell.org/kevin/kevin-cody-cartoon.jpg"
             alt="Kevin Bodwell"
             fill
             className="rounded-3xl border-4 border-blue-500 object-cover shadow-lg"

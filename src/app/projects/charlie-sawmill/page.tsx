@@ -11,7 +11,7 @@ export default function CharlieSawmillPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-01-01_14-43-05_618.jpeg"
+          src="https://cdn.bodwell.org/kevin/2015-01-01_14-43-05_618.jpeg"
           alt="Log after first pass"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"

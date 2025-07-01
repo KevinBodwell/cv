@@ -15,7 +15,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-01-22_16-45-46_580.jpeg"
+          src="https://cdn.bodwell.org/kevin/2015-01-22_16-45-46_580.jpeg"
           alt="Rear upstairs window fallen in"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -27,7 +27,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2014-08-24-1.jpg"
+          src="https://cdn.bodwell.org/kevin/2014-08-24-1.jpg"
           alt="Water pouring out."
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -51,7 +51,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/wd-old-shop.jpg"
+          src="https://cdn.bodwell.org/kevin/wd-old-shop.jpg"
           alt="Old Shop"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -63,7 +63,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
       
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-02-10_14-49-23_624.jpeg"
+          src="https://cdn.bodwell.org/kevin/2015-02-10_14-49-23_624.jpeg"
           alt="Costa 3-head Sander Move"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -75,7 +75,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-01-08_16-23-15_217.jpeg"
+          src="https://cdn.bodwell.org/kevin/2015-01-08_16-23-15_217.jpeg"
           alt="Costa 3-head Sander Move"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -87,7 +87,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-48 relative mb-4 mt-6">
         <Image
-          src="/1101-nimitz-empty.jpg"
+          src="https://cdn.bodwell.org/kevin/1101-nimitz-empty.jpg"
           alt="New Space Empty"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -106,7 +106,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-48 relative mb-4 mt-6">
         <Image
-          src="/2015-02-04_17-29-01_590.jpeg"
+          src="https://cdn.bodwell.org/kevin/2015-02-04_17-29-01_590.jpeg"
           alt="New Space Empty"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -118,7 +118,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/015a80d890c3d97ad467e94bb165c575db7dd79a01.jpg"
+          src="https://cdn.bodwell.org/kevin/015a80d890c3d97ad467e94bb165c575db7dd79a01.jpg"
           alt="Old Shop"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -130,7 +130,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/01b57430e0e8b3a0438d6d4902a39fd7c5355a55a0.jpg"
+          src="https://cdn.bodwell.org/kevin/01b57430e0e8b3a0438d6d4902a39fd7c5355a55a0.jpg"
           alt="Old Shop"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -142,7 +142,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-02-04_15-18-10_000.jpeg"
+          src="https://cdn.bodwell.org/kevin/2015-02-04_15-18-10_000.jpeg"
           alt="Old Shop"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -154,7 +154,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-11-13_10-31-39_537.jpeg"
+          src="https://cdn.bodwell.org/kevin/2015-11-13_10-31-39_537.jpeg"
           alt="Old Shop"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -168,7 +168,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-10-26_18-29-45_867.jpeg"
+          src="https://cdn.bodwell.org/kevin/2015-10-26_18-29-45_867.jpeg"
           alt="Old Shop"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -180,7 +180,7 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/469055994_10162150025094549_4023274800264753185_n.jpg"
+          src="https://cdn.bodwell.org/kevin/469055994_10162150025094549_4023274800264753185_n.jpg"
           alt="Old Shop"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
@@ -196,8 +196,8 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-08-20_11-16-48_256.jpeg"
-          alt="Old Shop"
+          src="https://cdn.bodwell.org/kevin/2015-08-20_11-16-48_256.jpeg"
+          alt="Conduit"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
           sizes="160px"
@@ -208,8 +208,8 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2015-08-20_16-32-55_098.jpeg"
-          alt="Old Shop"
+          src="https://cdn.bodwell.org/kevin/2015-08-20_16-32-55_098.jpeg"
+          alt="Conduit Supports"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
           sizes="160px"
@@ -220,8 +220,8 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2016-07-25_16-06-31_000.jpeg"
-          alt="Old Shop"
+          src="https://cdn.bodwell.org/kevin/2016-07-25_16-06-31_000.jpeg"
+          alt="Dust Collection"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
           sizes="160px"
@@ -234,8 +234,8 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2016-04-29_10-38-01_288.jpeg"
-          alt="Old Shop"
+          src="https://cdn.bodwell.org/kevin/2016-04-29_10-38-01_288.jpeg"
+          alt="Breaker Labels"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
           sizes="160px"
@@ -246,8 +246,8 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2016-04-29_10-37-35_808.jpeg"
-          alt="Old Shop"
+          src="https://cdn.bodwell.org/kevin/2016-04-29_10-37-35_808.jpeg"
+          alt="Breaker Labels"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
           sizes="160px"
@@ -258,8 +258,8 @@ export default function SouthNapaEarthquakeRecoveryPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/2016-04-29_10-57-23_136.jpeg"
-          alt="Old Shop"
+          src="https://cdn.bodwell.org/kevin/2016-04-29_10-57-23_136.jpeg"
+          alt="Exit Sign"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
           sizes="160px"

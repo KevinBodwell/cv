@@ -30,7 +30,7 @@ export default function MagicBoxPage() {
 
       <div className="w-182 h-182 relative mb-4 mt-6">
         <Image
-          src="/awfs-2009-1.jpg"
+          src="https://cdn.bodwell.org/kevin/awfs-2009-1.jpg"
           alt="AWFS 2009 Magic Box fully extended"
           fill
           className="rounded-3xl border-4 border-green-500 object-cover shadow-lg"
