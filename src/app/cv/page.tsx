@@ -1,5 +1,6 @@
-// src/app/cv/page.tsx
 export const dynamic = 'force-static';
+import Link from 'next/link';
+import allProjects from '@/data/projects';
 
 type Job = {
   employer: string;
@@ -9,6 +10,7 @@ type Job = {
   overview: string;
   bullets: string[];
   tags: string[];
+  companySlug?: string;
 };
 
 const workHistory: Job[] = [
@@ -26,6 +28,7 @@ const workHistory: Job[] = [
       'Spearheaded security improvements, CI/CD pipelines, and automated testing',
     ],
     tags: ['Magento 2', 'PHP', 'MySQL', 'CI/CD', 'Power BI', 'Playwright'],
+    companySlug: 'ripple-junction',
   },
   {
     employer: 'Palmetto State Armory',
@@ -41,6 +44,7 @@ const workHistory: Job[] = [
       'Wrote QA test suites using Puppeteer, Selenium, and TypeScript',
     ],
     tags: ['Magento 2', 'Redis', 'RabbitMQ', 'xDebug', 'TypeScript', 'Docker', 'NetSuite ERP'],
+    companySlug: 'palmetto-state-armory',
   },
   {
     employer: 'Bandai Namco Collectibles',
@@ -56,6 +60,7 @@ const workHistory: Job[] = [
       'Participated in J-SOX compliance preparation',
     ],
     tags: ['Magento 2', 'Redis', 'RabbitMQ', 'xDebug', 'TypeScript', 'Docker', 'Acumatica ERP', 'C#'],
+    companySlug: 'bandai-namco-collectibles',
   },
   {
     employer: 'ABV Group / NuMe USA',
@@ -71,6 +76,7 @@ const workHistory: Job[] = [
       'Served as technical point-of-contact across all departments',
     ],
     tags: ['Magento 2', 'Redis', 'RabbitMQ', 'xDebug', 'QuickBooks'],
+    companySlug: 'abv-group-nume-usa',
   },  
   {
     employer: 'Western Dovetail, Inc.',
@@ -97,6 +103,7 @@ const workHistory: Job[] = [
       'Managed internal sales, quoting, and production documentation workflows',
     ],
     tags: ['Magento 2', 'C#', 'QuickBooks', 'AutoCAD', 'Excel', 'Hyper-V', 'Windows Server', 'CNC', 'OSHA Compliance', 'ERP', 'Industrial Automation', 'Manufacturing'],
+    companySlug: 'western-dovetail',
   },
   {
     employer: 'Various Employers',
@@ -112,6 +119,7 @@ const workHistory: Job[] = [
       'Parks Maintenance Worker: California State Parks Department',
     ],
     tags: ['MS Excel', 'Firefighting', 'Heavy Equipment', 'Commercial Driver', 'Parks Maintenance', 'Public Safety', 'Team Leadership'],
+    companySlug: 'various-employers',
   },    
 ];
 
@@ -150,6 +158,17 @@ export default function CVPage() {
                 </span>
               ))}
             </div>
+            {job.companySlug &&
+              allProjects.some((p) => p.companySlug === job.companySlug) && (
+                <div className="relative mt-4">
+                  <Link
+                    href={`/projects/company/${job.companySlug}`}
+                    className="terminal"
+                  >
+                    ← See Projects
+                  </Link>
+                </div>
+              )}
           </div>
         ))}
       </div>

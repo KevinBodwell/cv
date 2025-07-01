@@ -2,7 +2,7 @@
 import Image from 'next/image';
 
 export const dynamic = 'force-static';
-
+import ProjectGrid from '@/components/ProjectGrid';
 import allProjects from '@/data/projects';
 
 const homepageProjects = allProjects.filter((p) => p.homepage);
@@ -87,32 +87,8 @@ export default function HomePage() {
       </section>
       <section id="projects" className="max-w-5xl mx-auto py-12 px-4">
         <h2 className="text-3xl font-bold mb-6 text-center">Featured Projects</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          {homepageProjects.map((project) => (
-            <a
-              key={project.title}
-              href={project.href}
-              className="block bg-terminal-dk border border-gray-200 rounded-xl shadow-md p-6 hover:shadow-lg transition"
-            >
-              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-sm text-gray-400 mb-2">
-                {project.company} &middot; {project.date}
-              </p>              
-              <p className="text-gray-300 mb-3">{project.description}</p>
-              <div className="flex flex-wrap gap-2 text-sm">
-                {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="coco-lt px-2 py-1 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <p className="terminal terminal-hover mt-4 inline-block font-medium">Learn more →</p>
-            </a>
-          ))}
-          <div className="text-center col-span-2">
+        <ProjectGrid projects={homepageProjects} />
+        <div className="text-center col-span-2">
             <a
               href="/projects"
               className="px-6 py-3 rounded-full hover:bg-blue-700 transition coco"
@@ -120,7 +96,6 @@ export default function HomePage() {
               See All Projects
             </a>
           </div>
-        </div>
       </section>
 
     </main>
