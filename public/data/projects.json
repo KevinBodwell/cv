@@ -7,7 +7,13 @@
     "description": "This portfolio is built with Next.js, TypeScript, and Tailwind CSS. It showcases my projects, skills, and experience in a clean and modern design.",
     "tags": ["NextJS", "Typescript", "Tailwind", "CSS"],
     "slug": "personal-portfolio",
-    "homepage": false
+    "homepage": false,
+    "body":[
+      {
+        "type": "paragraph",
+        "text": "This portfolio is a showcase of my work and skills as a developer. It includes projects I've worked on, technologies I've used, and my experience in the field."
+      }
+    ]
   },
   {
     "title": "Shopify Site Migration",
