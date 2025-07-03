@@ -93,7 +93,7 @@ export default function PortableContent({ content }: Props) {
               <Link
                 key={key}
                 href={block.href}
-                className={`text-terminal-link underline hover:text-terminal-hover ${block.className || ''}`}
+                className={`text-terminal-link underline hover:text-terminal-hover block relative pb-2 ${block.className || ''}`}
                 {...(block.newTab && {
                   target: '_blank',
                   rel: 'noopener noreferrer',

@@ -240,8 +240,8 @@
     "title": "South Napa Earthquake Recovery",
     "company": "Western Dovetail",
     "companySlug": "western-dovetail",
-    "date": "August 2014",
-    "description": "The South Napa Earthquake turned into an 18 month marathon project to move and rebuild the entire manufacturing facility.",
+    "date": "August 2014 - August 2017",
+    "description": "The South Napa Earthquake turned into an 3 year recovery project to move and rebuild the entire manufacturing facility.",
     "tags": ["Hardware", "woodworking", "Disaster Recovery", "Electrical", "Plumbing", "Rigging", "Construction", "Engineering", "Project Management", "Safety", "Logistics", "Team Leadership"],
     "slug": "south-napa-earthquake-recovery",
     "homepage": true,
@@ -485,7 +485,6 @@
         "type": "paragraph",
         "text": "I can not take credit for building the show buildings such as the bar and other shops, and the clock was built by Max's father George.  Most of the other displays I had some hand in, whether I built it myself, or in partnership with Max and Victor (our shop foreman.)"
       },
-
       {
         "type": "image",
         "src": "https://cdn.bodwell.org/kevin/2017-07-22_08-07-27_735.jpeg",
@@ -498,8 +497,15 @@
         "src": "https://cdn.bodwell.org/kevin/71499171_10157622530074549_622998720115376128_n.jpeg",
         "alt": "IWF",
         "aspectRatio": "4/3",
-        "caption": "I believe this was IWF Atlanta in 2010 or 2012.  My first visit to Atlanta, GA"
+        "caption": "This was IWF Atlanta in 2006.  My first visit to Atlanta, GA"
       },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/IMGA0137.JPG",
+        "alt": "IWF 2006",
+        "aspectRatio": "4/3",
+        "caption": "Setup IWF 2006 in Atlanta, GA"
+      },      
       {
         "type": "image",
         "src": "https://cdn.bodwell.org/kevin/P1010115.JPG",
@@ -686,5 +692,48 @@
         "title": "Timelapse of the first pass include ripping and initial planing."
       }
     ]
-  }
+  },
+  {
+    "title": "Timelapse Panorama",
+    "company": "Western Dovetail",
+    "companySlug": "western-dovetail",
+    "date": "September 2013",
+    "description": "As the dry docks at Mare Island were being re-opened, our shop had a front row seat to the action.  I setup a point and tilt camera which would take a set of picutre each minite.",
+    "tags": ["Networking", "Photography", "Timelapse", "Panorama", "Mare Island", "ffmpeg", "Hugin", "ImageMagick"],
+    "slug": "timelapse-panorama",
+    "homepage": false,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "This timelapse was created using a foscam point and tilt camera pointed out of the windows on the mezzanine of building 118 on Mare Island.  I had a process which would take a set of 3 pictures, moving the camera between each frame.  Then using Hugin to stich them together and ImageMagfic for some cropping.  I later used ffmpeg to combine the images into a timelapse"
+      },
+      {
+        "type": "youtube",
+        "videoId": "UnvQWWWAm2g",
+        "title": "Timelapse of the Morgan Fire on Mount Diablo September 8th, 2013"
+      },
+      {
+        "type": "link",
+        "href": "https://hugin.sourceforge.io/",
+        "text": "Hugin panorama photo stitcher",
+        "newTab": true
+      },
+      {
+        "type": "link",
+        "href": "https://imagemagick.org/",
+        "text": "ImageMagick",
+        "newTab": true
+      },
+      {
+        "type": "link",
+        "href": "https://ffmpeg.org/",
+        "text": "FFmpeg",
+        "newTab": true
+      },
+      {
+        "type": "paragraph",
+        "text": "We were eventually asked to take down our camera as it became a problem to the dry dock operations.  We had caught Mythbusters filming a segment with buster, and then when they started tearing apart the mothball fleet, various people who didn't like what they were doing started using it to report on the goings on.  We support local jobs and didn't want to get into the politcs, so that ended the fun experiment."
+      }    
+    ]
+  }  
 ]
