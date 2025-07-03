@@ -1,0 +1,417 @@
+[
+  {
+    "title": "Personal Portfolio",
+    "company": "Personal Projects",
+    "companySlug": "personal-projects",
+    "date": "July 2025 ongoing",
+    "description": "This portfolio is built with Next.js, TypeScript, and Tailwind CSS. It showcases my projects, skills, and experience in a clean and modern design.",
+    "tags": ["NextJS", "Typescript", "Tailwind", "CSS"],
+    "slug": "personal-portfolio",
+    "homepage": false
+  },
+  {
+    "title": "Shopify Site Migration",
+    "company": "Ripple Junction",
+    "companySlug": "ripple-junction",
+    "date": "April 2025 - May 2025",
+    "description": "Migrated Direct to Consumer (DTC) site from Magento 2 to Shopify, improving performance and reducing costs in under 30 days.",
+    "tags": ["Shopify", "Migration", "Performance"],
+    "slug": "shopify-site-migration",
+    "homepage": false,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "After being given the direction that we had to cut costs, the decision at the highest level was to replatform our DTC to Shopify.  I Migrated the site from Magento 2 to Shopify, improving performance and reducing costs in under 30 days."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/rj_shopify_screenshot.jpg",
+        "alt": "Shopify Migration Screenshot",
+        "aspectRatio": "16/9"
+      },
+      {
+        "type": "bulleted-list",
+        "items": [
+          "Reduced cost of ownership",
+          "Improved page load",
+          "Higher internal user satisfaction",
+          "Setup 3rd party integrations for tracking, email, and reviews"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Magento 2 Site Rescue",
+    "company": "Ripple Junction",
+    "companySlug": "ripple-junction",
+    "date": "March 2023 - July 2023",
+    "description": "Rescue a Magento 2 site from a 3rd party agency relationship gone south.  Migrated to Adobe Commerce Cloud, improved performance, and ensured zero unplanned downtime.",
+    "tags": ["Magento 2", "Performance", "New Relic"],
+    "slug": "magento-site-rescue",
+    "homepage": false,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "After a 3rd party agency relationship went south, I was brought in to rescue the Magento 2 site. I migrated the site to Adobe Commerce Cloud, improved performance, and ensured zero unplanned downtime."
+      },
+      {
+        "type": "bulleted-list",
+        "items": [
+          "Migrated to Adobe Commerce Cloud",
+          "Improved performance with Fastly CDN",
+          "Removed unused code and partially completed project code from project",
+          "Removed some performance limited features installed by 3rd party",
+          "Ensured zero unplanned downtime",
+          "Monitored ongoing performance using New Relic",
+          "Results of migration and fixes have been zero unplanned downtime in over 2 years since I arrived"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Pumpkin Eyes",
+    "company": "Personal Projects",
+    "companySlug": "personal-projects",
+    "date": "September 2024 - Present",
+    "description": "Building a pumpkin with animatronic eyes that follow you around the room.  The project is a fun exploration of hardware and software integration.",
+    "tags": ["Animatronics", "Hardware", "Software", "Raspberry Pi", "Ardiono", "OpenCV", "Computer Vision", "Object recognition"],
+    "slug": "pumpkin-eyes",
+    "homepage": true,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "This project is a work in progress, progress is slow as other projects have gotten in the way."
+      },
+      {
+        "type": "youtube",
+        "videoId": "J02LZxw7xJ8",
+        "title": "Demo 1 Video"
+      },
+      {
+        "type": "paragraph",
+        "text": "I have printed 2 set of eyes and have hooked up the servos to an Arduino which also reads from an old game port joystick."
+      },
+      {
+        "type": "link",
+        "href": "https://willcogley.notion.site/EyeMech-1-0-fee129fa32a443749f88524f53702f5a",
+        "text": "Based on EyeMech 1.0 by Will Cogley"
+      },
+      {
+        "type": "bulleted-list",
+        "items": [
+          "Arduino Motion Control",
+          "Raspberry Pi for Computer Vision",
+          "OpenCV for Object Recognition"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "South Napa Earthquake Recovery",
+    "company": "Western Dovetail",
+    "companySlug": "western-dovetail",
+    "date": "August 2014",
+    "description": "The South Napa Earthquake turned into an 18 month marathon project to move and rebuild the entire manufacturing facility.",
+    "tags": ["Hardware", "woodworking", "Disaster Recovery", "Electrical", "Plumbing", "Rigging", "Construction", "Engineering", "Project Management", "Safety", "Logistics", "Team Leadership"],
+    "slug": "south-napa-earthquake-recovery",
+    "homepage": true,
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "South Napa Earthquake Recovery"
+      },
+      {
+        "type": "paragraph",
+        "text": "On August 24, 2014, the South Napa Earthquake struck at 3:20 AM with a magnitude of 6.0. The earthquake caused significant damage to many buildings in the area, including the Western Dovetail factory. The building was red tagged and we would never return to make drawers there again."
+      },
+      {
+        "type": "paragraph",
+        "text": "The wood Jointers shop on Mare Island was originally built around 1904. The story has it that in 1906, the great San Francisco earthquake also badly damaged the brick on the building, and the Navy put it back up just the way it was, only to fall back down 100 years later."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-01-22_16-45-46_580.jpeg",
+        "alt": "Rear upstairs window fallen in",
+        "aspectRatio": "4/3",
+        "caption": "Rear upstairs window fallen in"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2014-08-24-1.jpg",
+        "alt": "Water pouring out.",
+        "aspectRatio": "4/3",
+        "caption": "Broken water pipe between Jointers Shop and Sawmill."
+      },
+      {
+        "type": "paragraph",
+        "text": "Being in the position of a 'non-producer' — I didn’t make product that needed to be shipped to customers — I became the lead in the recovery effort."
+      },
+      {
+        "type": "paragraph",
+        "text": "We spent a few months working in borrowed space from 2 or 3 other companies on Mare Island. Thank you to Dimensions Unlimited and Battle Bots for letting us barge in and saving our bacon."
+      },
+      {
+        "type": "paragraph",
+        "text": "We secured a new space only a few hundred yards away, but were only allowed into the old building 2 days per week, 4 hours at a time, with a max of 4 people. Everything had to be choreographed — people, tools, equipment — so we touched only what we needed."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/wd-old-shop.jpg",
+        "alt": "Old Shop",
+        "aspectRatio": "4/3",
+        "caption": "Inside the old shop before the earthquake."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-02-10_14-49-23_624.jpeg",
+        "alt": "Costa 3-head Sander Move",
+        "aspectRatio": "4/3",
+        "caption": "Thanks to some neighbors with a big lift, we were able to move the 3 head 53\" width belt sander to the new building in one afternoon. For this move, we had to disconnect and jack it up high enough to fit the forks on the previous time allotted to go into the building, so all in all moving this just 400 yards took close to 2 weeks."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-01-08_16-23-15_217.jpeg",
+        "alt": "Costa 3-head Sander Move",
+        "aspectRatio": "4/3",
+        "caption": "The neighbors were not available for this move, so we made it work with what we had. Lift up, back in the truck, set it down and drive out."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/1101-nimitz-empty.jpg",
+        "alt": "New Space Empty",
+        "aspectRatio": "16/4"
+      },
+      {
+        "type": "paragraph",
+        "text": "The new space just down the road. What’s hard to see is the earthquake also damaged this building. It would be almost 3 months before we were allowed in the back 40 feet as that upper part of the wall had separated from the lower concrete portion."
+      },
+      {
+        "type": "paragraph",
+        "text": "This project was many projects in itself. I am only going to show a small snippet of everything I did, and only the things I was the lead on, or in most cases, the only person working on."
+      },
+      {
+        "type": "paragraph",
+        "text": "The new building had pneumatic operated louvers on the roof, switched with solenoid valves and relays. Since much of the other air handling equipment had been removed, I had to troubleshoot the existing system and augment with my own ideas."
+      },
+      {
+        "type": "paragraph",
+        "text": "For this project I first hooked up push buttons to open and close them, then built a parallel relay array and used an off-the-shelf 120 volt ethernet power switch to control them from the shop floor computers."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-02-04_17-29-01_590.jpeg",
+        "alt": "Roof Vent Diagram",
+        "aspectRatio": "4/3",
+        "caption": "Roof vent diagram"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/015a80d890c3d97ad467e94bb165c575db7dd79a01.jpg",
+        "alt": "Pneumatic Valve Array",
+        "aspectRatio": "4/3",
+        "caption": "Pneumatic Valve Array"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/01b57430e0e8b3a0438d6d4902a39fd7c5355a55a0.jpg",
+        "alt": "Manual Control",
+        "aspectRatio": "4/3",
+        "caption": "Manual Control"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-02-04_15-18-10_000.jpeg",
+        "alt": "Relays",
+        "aspectRatio": "4/3",
+        "caption": "Relays"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-11-13_10-31-39_537.jpeg",
+        "alt": "Web Power Switch",
+        "aspectRatio": "4/3",
+        "caption": "Web Power Switch"
+      },
+      {
+        "type": "paragraph",
+        "text": "There were a lot of moving pieces and a lot of supplies required during the build of the new shop, and all this was done while our production continued in the same space. Machines were temporarily hooked up with flexible cables and covered to make sure trip hazards were minimal."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-10-26_18-29-45_867.jpeg",
+        "alt": "Parts Cabinet",
+        "aspectRatio": "4/3"
+      },
+      {
+        "type": "paragraph",
+        "text": "I built this cabinet and drawers early on to hold all the nuts, bolts, electrical connectors, and other supplies I needed in the space over the next 18 months. You can see one of the shop touchscreen terminals above which allowed checking and updating job schedules along with operating vents, heaters, fans and lighting."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/469055994_10162150025094549_4023274800264753185_n.jpg",
+        "alt": "Late Night Work",
+        "aspectRatio": "4/3"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most of what you see is temporary setup. I would work from 5pm until midnight or later to move and permanently install the equipment so it could be ready for the next day."
+      },
+      {
+        "type": "paragraph",
+        "text": "Hiring an electrician was not in the budget, so I bought a copy of the National and California Electrical code and started drawing plans for the new shop. I had to figure out how to wire the new space, and how to get power to all the machines, lights, and outlets. Our supply voltage in the new space was 480 volt 3 phase and the old shop was 240 volt, so I had to calculate all the loads and spec out the transformers we would need."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-08-20_11-16-48_256.jpeg",
+        "alt": "Conduit Work",
+        "aspectRatio": "4/3"
+      },
+      {
+        "type": "paragraph",
+        "text": "There was a lot of conduit to bend, from 3/4\" all the way up to 2\""
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-08-20_16-32-55_098.jpeg",
+        "alt": "Conduit Supports",
+        "aspectRatio": "4/3"
+      },
+      {
+        "type": "paragraph",
+        "text": "I built these supports to carry the conduit and air lines out of new pallet rack endframe and double sided unistrut. Along the way I had to calculate the load and show that the weight of the planned conduit, wire and air lines were within the acceptable load capacity of the unistrut spans."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2016-07-25_16-06-31_000.jpeg",
+        "alt": "Dust Collection",
+        "aspectRatio": "4/3"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dust Collection had to be re-engineered and reinstalled as well. The old shop used the building's original 24\" dust collector installed by the Navy. We had to scrounge whatever dust collectors we could find for cheap and install them machine by machine."
+      },
+      {
+        "type": "paragraph",
+        "text": "Code compliance also meant labeling everything properly."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2016-04-29_10-38-01_288.jpeg",
+        "alt": "Breakers",
+        "aspectRatio": "4/3",
+        "caption": "Breakers"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2016-04-29_10-37-35_808.jpeg",
+        "alt": "More Breakers",
+        "aspectRatio": "4/3",
+        "caption": "More Breakers"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2016-04-29_10-57-23_136.jpeg",
+        "alt": "Exit Sign",
+        "aspectRatio": "4/3",
+        "caption": "Exit signs with braille as well. Each sign researched, ordered and installed."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The things which didn't get photos taken."
+      },      
+      {
+        "type": "bulleted-list",
+        "items": [
+          "Office Move x2, x3? We moved our office several times, at first into a neighbor, then to a converter house, then to the new office in the same building as the shop.",
+          "Plumbing: Mostly pneumatics, some copper pipe soldering, and a lot of fexible hose connections.",
+          "Rigging & Moving: Not only did we move our shop, but we also had to move our storage building, another 12,000 square feet of space and all the high bay racking.",
+          "Construction: I had to build new walls in the office, plus a soundproof room for the server rack.",
+          "Fiber: We scrounged some of the original Fiber Optic cable from the Navy in the new shop that was no longer used and re-routed between our new office on the far side of the building from the shop.",
+          "Project Management: I had to manage the entire project from start to finish, including budgeting, scheduling, and coordinating with all the stakeholders.",
+          "Safety: I had to ensure that all work was done safely and in compliance with OSHA regulations.",
+          "Structured Cabling: Many thousands of feet of Cat6 cable were run throughout the new shop and office.",
+          "Wifi: For our temporary setups we were in 4 places.  I hooked up point to point wifi between the buildings in order to keep everyone connected.  We were even able to run IP phones between locations."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Magic Box",
+    "company": "Western Dovetail",
+    "companySlug": "western-dovetail",
+    "date": "July 2009",
+    "description": "The magic box is a spectacle of wooden boxes that rise from within themselves to show all the different joinery we could do.  The project was a collaboration with the owner of Western Dovetail.",
+    "tags": ["Hardware", "woodworking", "Dovetail Joinery", "Zip Chain Actuator", "Relay Logic Control"],
+    "slug": "wd-magic-box",
+    "homepage": true,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "In 2009 the owner of Western Dovetail and I created a spectacle of wooden boxes.  I had created a small stack of 4 dovetail boxes on a new machine that we had just acquired which fit inside each other, just as a desk novelty to show how small it would go.  Little did I know that we would make a tower which would rise from within itself to show all the different joinery we could do."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the most part, I made all the boxes from picking and milling the wood to dovetailing, sanding, and finishing.  we tried to find a lift method for several weeks, penciling out several ideas until with landing on something called a Zip Chain Actuator.  The US representative for the company only had 1 demo unit, and that units gear box was 3d printed, which after 2 years of use was worn out and we were able to get a machined replacement unit."
+      },
+      {
+        "type": "paragraph",
+        "text": "The actuator was powered with a 12 volt motor and Allen Bradely relays and timers along with an off the shelf 4 channel car alarm/door remote.  I drew up the logic and wired the display while Max figured out how to attached all the boxes and support the fully extended towel."
+      },
+      {
+        "type": "youtube",
+        "videoId": "zUK3saIoHOA",
+        "title": "Magic Box Demo Video"
+      },
+
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/awfs-2009-1.jpg",
+        "alt": "AWFS 2009 Magic Box fully extended",
+        "aspectRatio": "16/9",
+        "caption": "AWFS 2009 Magic Box fully extended"
+      },
+      {
+        "type": "bulleted-list",
+        "items": [
+          "Dovetail Joinery",
+          "Zip Chain Actuator",
+          "Relay Logic Control"
+        ]
+      },
+      {
+        "type": "link",
+        "href": "https://www.ustsubaki.com/products/zip-chain-actuator/",
+        "text": "Zip Chain Actuator"
+      }
+    ]
+  },
+  {
+    "title": "Milling Logs",
+    "company": "Personal Projects",
+    "companySlug": "personal-projects",
+    "date": "January 2015",
+    "description": "My brother and I milling an Ash log into lumber.  We both grew up with the woodworking gene, our father was a shop teacher for many years and even built the house we grew up in.  We continue the family tradtion of getting outside and making things ourselves.",
+    "tags": ["Woodworking", "Milling", "Lumber", "Ash"],
+    "slug": "charlie-sawmill",
+    "homepage": false,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "In 2015, my brother Charlie and I milled some Ash he got from a local tree company. We had a lot of fun milling it, and we both made a few projects with the wood, Charlie made a table top he used in his dining room for several years and I have still got a couple think slabs waiting for a project."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2015-01-01_14-43-05_618.jpeg",
+        "alt": "Log after first pass",
+        "aspectRatio": "4/3"
+      },
+      {
+        "type": "youtube",
+        "videoId": "ziq4Qqtsoms",
+        "title": "Timelapse of the first pass include ripping and initial planing."
+      }
+    ]
+  }
+]

@@ -1,6 +1,5 @@
 export const dynamic = 'force-static';
 import Link from 'next/link';
-import allProjects from '@/data/projects';
 
 type Job = {
   employer: string;
@@ -158,11 +157,10 @@ export default function CVPage() {
                 </span>
               ))}
             </div>
-            {job.companySlug &&
-              allProjects.some((p) => p.companySlug === job.companySlug) && (
+            {job.companySlug && (
                 <div className="relative mt-4">
                   <Link
-                    href={`/projects/company/${job.companySlug}`}
+                    href={`/projects?company=${job.companySlug}`}
                     className="terminal"
                   >
                     ← See Projects

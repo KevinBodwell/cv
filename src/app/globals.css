@@ -50,3 +50,7 @@ body {
 .bg-terminal-dk {
   background-color: #2e2e2e;
 }
+
+.bg-image-caption {
+  background-color: rgba(200, 200, 200, 0.4);
+}
