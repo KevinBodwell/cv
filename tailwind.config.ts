@@ -10,6 +10,8 @@ const config: Config = {
     'aspect-[16/10]',
     'aspect-[3/2]',
     'aspect-[7/4]',
+    'aspect-[2/3]',
+    'aspect-[3/4]',
     'infinite-scroll',
     'animate-infinite-scroll'
   ],
@@ -21,6 +23,8 @@ const config: Config = {
         '3/2': '1.5',
         '16/10': '1.6',
         '16/9': '1.77',
+        '3/4': '0.75',
+        '2/3': '0.66',
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',

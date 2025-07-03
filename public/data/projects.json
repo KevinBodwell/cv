@@ -114,6 +114,129 @@
     ]
   },
   {
+    "title": "Magento to Acumatica ERP Connector",
+    "company": "Bandai Namco Collectibles",
+    "companySlug": "bandai-namco-collectibles",
+    "date": "January 2020 - December 2020",
+    "description": "Developed a custom connector to sync orders and inventory between Magento and Acumatica ERP. The connector was built to handle high volume order processing and inventory management.",
+    "tags": ["Magento", "Acumatica", "ERP", "Connector", "API", "RabbitMQ", "C#"],
+    "slug": "magento-to-acumatica-erp-connector",
+    "homepage": false,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "This project involved developing a custom connector to sync orders and inventory between Magento and Acumatica ERP. The connector was built to handle high volume order processing and inventory management."
+      },
+      {
+        "type": "paragraph",
+        "text": "After joinging Bandai Namco Collectibles, I found that the 3rd party who had made the existing sync had done so in a way that could only be described as the worst thing you could ever do.  The existing system not only made read and write directly to the DB without care or concern for best practices, but much of the processing happen when the user clicked the checkout button.  This resulted in times where the success page would never render if the remote ERP server was not available."
+      },
+      {
+        "type": "paragraph",
+        "text": "What I engineered was a system that unloaded most of the processing to a virtual machine running it's own independent set of services.  I made use of the newly added RabbitMQ feature of Magento 2 for both inventory and order sync.  Orders were written to a queue by Magento and then the service written in C# on the virtual machine would consume the orders, write those to Acumatica ERP via the API.  There were additional queue for messages from Acutmatica to Magento for orders updates, shipments, cancellations, inventory and several other functions."
+      },
+      {
+        "type": "paragraph",
+        "text": "After completion of this project the website was then able to handle a much higher volume of orders.  When I arrived, the site would generally crash with more than 3-5 people in active checkout.  Afterwords we were able to handle dozens of checkouts at a time."
+      }
+    ]
+  },
+  {
+    "title": "Fraud Detection Tools",
+    "company": "ABV Group",
+    "companySlug": "abv-group",
+    "date": "January 2019 - December 2019",
+    "description": "Developed a suite of tools to detect and prevent fraud in online transactions",
+    "tags": ["Fraud Detection", "Data Analysis", "Authorize.net", "Payment Processing", "Chargebacks", "Pattern Recognition"],
+    "slug": "fraud-detection-tools",
+    "homepage": false,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "NuMe USA was a business at high risk for fraud, sometimes several orders per day were potentially fraudulent and being able to flag those using the patterns we already knew was considered highly important, especially during the busy holiday season.  I developed a suite of tools to detect and prevent fraud in online transactions.  With these filters we were able to reduce chargebacks from several per month do to 1 a quarter."
+      },
+      {
+        "type": "paragraph",
+        "text": "Keep in mind this was before AI existed, so the tools were based on data analysis and pattern recognition us humans were doing.  The tools I built seem normal by today's processing standards.  Many of these filters I gladly shared during this time and have made it into such products and Bolt Checkout and Stripe.  I do not know if they indenpendently figured this stuff out, or if my conversations with industry leaders helped to push them in that direction.  Either way, it is just good to know how much the credit card gateways take this seriously today."
+      },
+      {
+        "type": "paragraph",
+        "text": "The filters I built included:"
+      },
+      {
+        "type": "bulleted-list",
+        "items": [
+          "IP Address Filtering: Blocked known bad IP addresses and geolocations.",
+          "Email Address Filtering: Blocked known bad email addresses and domains.",
+          "Email Address filtering: Flag orders where the person's name is not part of the email address and when at least 1 other filter fails.",
+          "Velocity Checks: Flagged orders with multiple transactions from the same IP address or email address in a short period of time.",
+          "Shipping/Billing Address Checks: Flagged orders where the shipping address and billing address were different, or where the shipping address was a known bad address.",
+          "Phone Number: Flag orders with a known bad phone number, or where the phone number could never be reached.",
+          "Re-shippers: We had a lot of orders being shipped to what I call re-shippers. These addresses would be used to ship the product oversees."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "I have continued to use the base filters at every location I've worked since creating them.  Though I re-write them everything for specific use case, they theory of them stays the same.  Stripe and other gateways do 99% of this today, however I still catch a few here and there."
+      }
+    ]
+  },
+  {
+    "title": "Musical Theatre",
+    "company": "Personal Projects",
+    "companySlug": "personal-projects",
+    "date": "2010 - 2017",
+    "description": "My kids were in Muscial Theatre, and I helped with the technical side of the productions.",
+    "tags": ["woodworking", "Set Design", "Construction", "Lighting", "Sound", "Stage Management"],
+    "slug": "bbk",
+    "homepage": false,
+    "body": [  
+      {
+        "type": "paragraph",
+        "text": "Sometime around 2010 my son decided to do musical theatre.  In Sonoma with had a local production company called Broadway Bound Kids.  As it happens, on of my classmates from highschool was the son of the organizers and also directed the shows, so I got into helping build the most magical sets and props for all the kids."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2016-02-27_16-33-21_795.jpeg",
+        "alt": "King Triton's Spear",
+        "aspectRatio": "2/3",
+        "caption": "King Triton's Spear, PVC pipe handle with plywood cutout, thing textures with sheetrock compound and painted and aged.  My wife Audra holding it for approval photo sent to the director."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2016-02-28_12-04-10_000.jpeg",
+        "alt": "Little Mermaid Ship's wheel",
+        "aspectRatio": "3/4",
+        "caption": "I made a quick ships wheel since no one could find the proper one in storage for this show."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2016-10-01_15-08-29_012.jpeg",
+        "alt": "Munchin Land",
+        "aspectRatio": "4/3",
+        "caption": "I think this is one of my favorite lightweight backdrops I made.  It is munchkin land from the Wizard of Oz before being painted.  Most of our moving set peices are made from door skins and framed with furring stips.  High school kids had to be able to move this set peice on off stage 3-4 times per day for 2 weeks of practice and shows."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2017-04-30_16-29-15_267.jpeg",
+        "alt": "Curved Door",
+        "aspectRatio": "3/4",
+        "caption": "One of several curved doors I made over the years.  This was used in Hairspray when she jumps out of the can.  You can see the bottom of the hairspray can in the background."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2017-04-30_16-29-07_826.jpeg",
+        "alt": "Curved Door",
+        "aspectRatio": "3/4",
+        "caption": "This dome is the top to a can of Hairspray."
+      },
+      {
+        "type": "paragraph",
+        "text": "There were 14 shows over 7 years, I never took a lot of pictures, as I find more of the finished work I start posting them here."
+      }    
+    ]
+  },  
+  {
     "title": "South Napa Earthquake Recovery",
     "company": "Western Dovetail",
     "companySlug": "western-dovetail",
@@ -341,6 +464,148 @@
           "Structured Cabling: Many thousands of feet of Cat6 cable were run throughout the new shop and office.",
           "Wifi: For our temporary setups we were in 4 places.  I hooked up point to point wifi between the buildings in order to keep everyone connected.  We were even able to run IP phones between locations."
         ]
+      }
+    ]
+  },
+  {
+    "title": "Tradeshows",
+    "company": "Western Dovetail",
+    "companySlug": "western-dovetail",
+    "date": "September 2007 - August 2017",
+    "description": "We went to a lot of trade shows, I spent a lot of time making them go smoothly.",
+    "tags": ["woodworking", "Product Development", "Dovetail Joinery", "Sales", "Marketing", "Trade Shows"],
+    "slug": "wd-dovetails",
+    "homepage": false,
+    "body": [  
+      {
+        "type": "paragraph",
+        "text": "Not long after starting at Western Dovetail I starting helping with Tradeshows.  Thanks to the owner Max Hunter, I was able to go to many of these shows, and for quite a few of them I was the point person to gather everything we needed, make sure it all got shipped and arrived on time."
+      },
+      {
+        "type": "paragraph",
+        "text": "I can not take credit for building the show buildings such as the bar and other shops, and the clock was built by Max's father George.  Most of the other displays I had some hand in, whether I built it myself, or in partnership with Max and Victor (our shop foreman.)"
+      },
+
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2017-07-22_08-07-27_735.jpeg",
+        "alt": "AWSF Las Vegas",
+        "aspectRatio": "4/3",
+        "caption": "I think this was the last show I attended in 2017, AWFS Las Vegas.  This show was our first time with touch screens for guests to interact with."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/71499171_10157622530074549_622998720115376128_n.jpeg",
+        "alt": "IWF",
+        "aspectRatio": "4/3",
+        "caption": "I believe this was IWF Atlanta in 2010 or 2012.  My first visit to Atlanta, GA"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/P1010115.JPG",
+        "alt": "AWFS",
+        "aspectRatio": "4/3",
+        "caption": "This was our largest booth space ever, I think either 40x40.  My wife Audra helped setup since Max and Josh were delayed until the night before opening.  Also thanks to our neighboring vendor Blum for lending a couple guys with ladders to help us get the bar vertical this year."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/P1010117.JPG",
+        "alt": "AWFS",
+        "aspectRatio": "4/3",
+        "caption": "More of that big booth space at AWFS."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/P1010119.JPG",
+        "alt": "Give-away storage",
+        "aspectRatio": "4/3",
+        "caption": "Inside those building is where we kept the give-aways.  We were known to give away these sample drawers that happen to function as an inbox for your desk."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/468875744_10162132039484549_9066379730065616416_n.jpg",
+        "alt": "IWF",
+        "aspectRatio": "4/3",
+        "caption": "I believe this was IWF in 2016?"
+      }
+    ]
+  },  
+  {
+    "title": "Dovetails!",
+    "company": "Western Dovetail",
+    "companySlug": "western-dovetail",
+    "date": "September 2001 - October 2017",
+    "description": "Various projects with dovetails and woodworking while working at Western Dovetail.",
+    "tags": ["woodworking", "Product Development", "Dovetail Joinery"],
+    "slug": "wd-dovetails",
+    "homepage": false,
+    "body": [  
+      {
+        "type": "paragraph",
+        "text": "Thoughout my years at Western Dovetail, I worked on many projects in the shop.  This project is a gallery of things I had a lot to do with, much of this I was wholey responsible for."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/71283101_10157622531759549_8437200319389106176_n.jpg",
+        "alt": "Curved Drawer Fronts",
+        "aspectRatio": "4/3",
+        "caption": "180 degree Laminated Drawer Fronts and shallower Carved Drawer Fronts."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/71387595_10157622533139549_7117984737712406528_n.jpg",
+        "alt": "Nested Tables",
+        "aspectRatio": "4/3",
+        "caption": "Nested Tables with Dovetail Joinery, some of the thickest and largest dovetails I made."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/71085962_10157622531009549_2451810809957842944_n.jpg",
+        "alt": "Large Box Joint",
+        "aspectRatio": "4/3",
+        "caption": "These Large Box Joints were cut by Max Hunter, however my part in this was Milling the wood and sanding and finishing."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/71893175_10157622533209549_6254789327323136000_n.jpg",
+        "alt": "Assorted Dovetails",
+        "aspectRatio": "4/3",
+        "caption": "I made these samples so that we could show of new capablities of a machine we recently purchased."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/71692830_10157622533269549_4574107004502540288_n.jpg",
+        "alt": "Custom Dovetail Spacing",
+        "aspectRatio": "4/3",
+        "caption": "Close look and the custom dovetail spaceing and depth."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/P1010122.JPG",
+        "alt": "VG fir tradeshow cabinet",
+        "aspectRatio": "4/3",
+        "caption": "This Vertical Grain Fir cabinet was my first fully 3d design.  Everything was designed in AutoCAD and then cut sheet made and then work began.  Myself and 1 other shop employee built the entire cabinet for this display."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/S2400066.JPG",
+        "alt": "Corner Drawer",
+        "aspectRatio": "4/3",
+        "caption": "The first ever Dovetail Corner drawer was made by Max, Victor, and Myself.  There was quite a bit of trial and error."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/S2400065.JPG",
+        "alt": "Corner Drawer Closeup",
+        "aspectRatio": "4/3",
+        "caption": "Closeup of the front of the Corner Drawer."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/471256101_10162206555214549_7107313343744348938_n.jpg",
+        "alt": "Trash Drawers",
+        "aspectRatio": "4/3",
+        "caption": "We had quite a few designed for trash bin drawers.  I can't be sure I made this particular one for our display, however I did make several different versions of these."
       }
     ]
   },
