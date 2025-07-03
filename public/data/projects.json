@@ -100,7 +100,8 @@
       {
         "type": "link",
         "href": "https://willcogley.notion.site/EyeMech-1-0-fee129fa32a443749f88524f53702f5a",
-        "text": "Based on EyeMech 1.0 by Will Cogley"
+        "text": "Based on EyeMech 1.0 by Will Cogley",
+        "newTab": true
       },
       {
         "type": "bulleted-list",
@@ -389,7 +390,8 @@
       {
         "type": "link",
         "href": "https://www.ustsubaki.com/products/zip-chain-actuator/",
-        "text": "Zip Chain Actuator"
+        "text": "Zip Chain Actuator",
+        "newTab": true
       }
     ]
   },

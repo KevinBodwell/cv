@@ -17,22 +17,22 @@ export default function ContactPage() {
           <div className="w-full inline-flex flex-nowrap [mask-image:_linear-gradient(to_right,transparent_0,_black_38px,_black_calc(100%-60px),transparent_100%)]">
             <ul className="flex items-center justify-center md:justify-start [&_li]:mx-6 [&_img]:max-w-none">
               <li>
-                <Link href="https://www.linkedin.com/in/kevin-bodwell/" className="text-blue-500 hover:underline">
+                <Link href="https://www.linkedin.com/in/kevin-bodwell/" className="text-blue-500 hover:underline" target="_blank">
                   <Image src="/LinkedIn_icon.svg" alt="LinkedIn" width={24} height={24} className="inline-block mr-2" />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.facebook.com/bodwell" className="text-blue-500 hover:underline">
+                <Link href="https://www.facebook.com/bodwell" className="text-blue-500 hover:underline" target="_blank">
                   <Image src="/Facebook_f_logo_2021.svg" alt="LinkedIn" width={24} height={24} className="inline-block mr-2" />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.instagram.com/kevinbodwell/" className="text-blue-500 hover:underline">
+                <Link href="https://www.instagram.com/kevinbodwell/" className="text-blue-500 hover:underline" target="_blank">
                   <Image src="/Instagram_logo_2022.svg" alt="Instagram" width={24} height={24} className="inline-block mr-2" />
                 </Link>
               </li>
               <li>
-                <Link href="https://bsky.app/profile/kevinbodwell.bsky.social" className="text-blue-500 hover:underline">
+                <Link href="https://bsky.app/profile/kevinbodwell.bsky.social" className="text-blue-500 hover:underline" target="_blank">
                   <Image src="/Bluesky_Logo.svg" alt="Bluesky" width={24} height={24} className="inline-block mr-2" />
                 </Link>
               </li>
