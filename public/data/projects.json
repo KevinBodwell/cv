@@ -54,7 +54,7 @@
     "description": "Rescue a Magento 2 site from a 3rd party agency relationship gone south.  Migrated to Adobe Commerce Cloud, improved performance, and ensured zero unplanned downtime.",
     "tags": ["Magento 2", "Performance", "New Relic"],
     "slug": "magento-site-rescue",
-    "homepage": false,
+    "homepage": true,
     "body": [
       {
         "type": "paragraph",
@@ -69,7 +69,7 @@
           "Removed some performance limited features installed by 3rd party",
           "Ensured zero unplanned downtime",
           "Monitored ongoing performance using New Relic",
-          "Results of migration and fixes have been zero unplanned downtime in over 2 years since I arrived"
+          "Results of migration and fixes have been zero unplanned downtime in over 2 years"
         ]
       }
     ]

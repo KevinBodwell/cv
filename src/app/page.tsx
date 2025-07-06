@@ -28,10 +28,10 @@ export default function HomePage() {
           Seasoned engineering leader and software architect with over 25 years of experience across e-commerce, manufacturing automation, industrial maintenance, and IT infrastructure. Proven ability to guide complex projects from conception to deployment, lead cross-functional teams, and implement innovative technical solutions that streamline operations and improve end-user experience. Fast learner with a passion for adopting new technologies and enhancing developer experience through automation. Combines hands-on development with strategic planning and systems thinking.
         </p>
         <Link
-          href="#projects"
+          href="/projects"
           className="px-6 py-3 rounded-full hover:bg-blue-700 transition coco"
         >
-          See My Work
+          See My Projects
         </Link>
       </section>
 
