@@ -735,5 +735,77 @@
         "text": "We were eventually asked to take down our camera as it became a problem to the dry dock operations.  We had caught Mythbusters filming a segment with buster, and then when they started tearing apart the mothball fleet, various people who didn't like what they were doing started using it to report on the goings on.  We support local jobs and didn't want to get into the politcs, so that ended the fun experiment."
       }    
     ]
-  }  
+  },
+    {
+    "title": "Railroad Photography",
+    "company": "Personal Projects",
+    "companySlug": "personal-projects",
+    "date": "1990s - Present",
+    "description": "As long as I can remember I have been facinated with railroads.  I have been taking pictures of trains since I was a kid, and I still do it today.",
+    "tags": ["Photography", "35mm Film", "Digital Photography", "Railroads", "Trains"],
+    "slug": "railroad-photography",
+    "homepage": false,
+    "body": [  
+      {
+        "type": "paragraph",
+        "text": "Much of what I'll show in this project is 35mm photos I took in the 1990s; I still shoot 35mm film today and develop myself at home."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/1-6-4.jpg",
+        "alt": "Union Pacific Emerging from Tunnel and accross the Keddie Wye Bridge",
+        "aspectRatio": "4/3",
+        "caption": "Union Pacific Emerging from Tunnel and accross the Keddie Wye Bridge"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/10-5-3.jpg",
+        "alt": "California Northern Special",
+        "aspectRatio": "4/3",
+        "caption": "Engineer Mark operated the California Northern special passenger train from Vallejo to Santa Rosa with various dignitaries on board."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/13-5-4.jpg",
+        "alt": "South Pacific 8307 heading east in Suisun, CA",
+        "aspectRatio": "4/3",
+        "caption": "Southern Pacific 8307 heading east in Suisun, CA, and SD40T-2 showing the typical amount of weathering SP was know for."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/14-2-2.jpg",
+        "alt": "Passenger coach is disrepair",
+        "aspectRatio": "4/3",
+        "caption": "This passenger coach, named the Lady Gaye Laurel, LGLX 3343, sitting in Schellville, CA around 1993 or 1994."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2-1-1.jpg",
+        "alt": "California Northern 105 at Anheuser-Busch in Suisun, CA",
+        "aspectRatio": "4/3",
+        "caption": "California Northern 105 at Anheuser-Busch in Suisun, CA"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2-4-4.jpg",
+        "alt": "California Northern 113 in the yard at American Canyon, CA",
+        "aspectRatio": "4/3",
+        "caption": "California Northern 113 in the yard at American Canyon, CA.  Always been sad how much I allowed this negative to get scratched early on."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/9-4-3.jpg",
+        "alt": "Sign at Ozol - Yard near Martinez, CA",
+        "aspectRatio": "4/3",
+        "caption": "Sign at Ozol - Yard near Martinez, CA"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/2-3-2.jpg",
+        "alt": "Amtrak 347 San Pablo, CA",
+        "aspectRatio": "4/3",
+        "caption": "Amtrak 347 San Pablo, CA.  In the background you can just see the UPS intermodel yard.  Amtrak is here on the old Southern Pacfic Line, the UPS yard is on the old Santa Fe line only 100 yards apart in this location."
+      }
+    ]
+  }
 ]
