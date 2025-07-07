@@ -5,7 +5,8 @@ export type PortableBlock =
   | PortableYouTube
   | PortableLink
   | PortableTagList
-  | PortableBulletedList;
+  | PortableBulletedList
+  | PortableGrid;
 
 export interface BaseBlock {
   type: string;
@@ -53,5 +54,11 @@ export interface PortableTagList extends BaseBlock {
 export interface PortableBulletedList extends BaseBlock {
   type: 'bulleted-list';
   items: string[];
+}
+
+export interface PortableGrid extends BaseBlock {
+  type: 'grid';
+  children: PortableBlock[];
+  className?: string;
 }
 

@@ -48,7 +48,7 @@ export default function PortableContent({ content }: Props) {
             return (
               <div
                 key={key}
-                className={`relative w-full mb-6 ${
+                className={`relative rounded-3xl ${
                   block.aspectRatio
                     ? `aspect-[${block.aspectRatio}]`
                     : 'aspect-[4/3]'
@@ -124,6 +124,16 @@ export default function PortableContent({ content }: Props) {
                 ))}
               </ul>
             );
+
+            case 'grid':
+              return (
+                <div
+                  key={key}
+                  className={`grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8 ${block.className || ''}`}
+                >
+                  <PortableContent content={block.children} />
+                </div>
+              );
 
           default:
             return null;

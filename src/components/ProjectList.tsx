@@ -34,6 +34,7 @@ export default function ProjectList({ projects }: { projects: any[] }) {
             <Link
                 href={`/projects?slug=${project.slug}`}
                 className="terminal terminal-hover inline-block font-medium"
+                prefetch={true}
             >
                 Learn more →
             </Link>

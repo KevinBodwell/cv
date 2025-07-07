@@ -16,6 +16,263 @@
     ]
   },
   {
+    "title": "Galactic Scribble",
+    "company": "Personal Projects",
+    "companySlug": "personal-projects",
+    "date": "April 1st 2024 - present",
+    "description": "",
+    "tags": ["Business Development", "Storytelling", "Product Development", "Marketing", "Sales"],
+    "slug": "galactic-scribble",
+    "homepage": false,
+    "body":[
+      {
+        "type": "paragraph",
+        "text": "Galactic Scribble is a personal project with my family that combines our love for storytelling and product development. The project is ongoing and explores how I can create products and market through creative and emotional compelling stories."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/GS-0000011_Galactic_Scribble_Medium_Logo.webp",
+        "alt": "Original Galactic Scribble Logo",
+        "aspectRatio": "1/1",
+        "className": "bg-white float-right w-1/3 ml-4"
+      },
+      {
+        "type": "paragraph",
+        "text": "I've been the point person with this venture, my wife Audra and daughter Piper have been helping with the the ideas and some of the AI art generation.  None of us are artists, I always say I can barely draw a stick figure, however with the developments in AI image generation, this opened up a new creative outlet for me.  I'm good at describing things in detail, and I can be fairly patient and persistant, so prompt engineering and tweaking is a large portion of this."
+      },
+      {
+        "type": "paragraph",
+        "text": "I do understand that artists and creatives have strong feeling about AI, and I respect their feelings, however I temper that with the reality that as being in software development for many years, no one seems to care that many of us developers, engineers and architects are also facing the same challenges.  Yet anytime I bring this up, they tell me I don't understand and can never understand.  They tell me the AI companies training on their art, and yes, that is true, and they also trained on every public github repo too, and the asked neither of our groups if that was OK."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/GS-0000038_Galactic_Scribble_v2_EnglishBlack.webp",
+        "alt": "New Galactic Scribble Logo",
+        "aspectRatio": "1/1",
+        "className": "bg-white float-left w-1/3 mr-4"
+      },      
+      {
+        "type": "paragraph",
+        "text": "My point is, whether or not Disney, Universal, Paramount win their lawsuits over training AI on their intellectual property, the reality is that AI is here to stay.  Those very companies are already using AI to assist with their technology, and they don't seem to care that it trained on other people's code.  Now one could argue there is a different component around copyright, and this may be true, it is also true that jobs will be lost by many sectors, not just creatives, and not just software development."
+      },
+      {
+        "type": "paragraph",
+        "text": "I view my use of AI for generating creative peices as augmentation to my skills and trying to adapt and stay near the front of the curve to give myself and my family an edge.  So far, we have learned that many people like our ideas, however we have not cracked the code of emotional story telling that gets them to open their wallets."
+      },
+      {
+        "type": "paragraph",
+        "text": "We don't have an advertising budget, so we rely on word of mouth and organic growth.  Over the past year, print on demand has gotten a lot more expensive yet consumers want to pay less and less.  As of June 2025 we turned off the store and are looking to rebrand and retool for a different product."
+      },
+      {
+        "type": "paragraph",
+        "text": "As shown above, our logo went from looking very IP (storm trooper) to something more just space man, but still having that retro feel.  In 2025 we decided to try pivoting to a new name Elemental Works Ltd."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/ewl-pencil-ornate.webp",
+        "alt": "Elemental Works Pencil",
+        "aspectRatio": "1/1",
+        "className": "bg-white w-1/2 float-right"
+      },
+      {
+        "type": "paragraph",
+        "text": "My elemental works logos started in Illustrator and Adobe Stock for inspiration, then for the orgingal I fed it back into AI for the pencil sketch effect."
+      },
+      {
+        "type": "paragraph",
+        "text": "My second Elemental works logo was designed to look like the old time porcelain signs you would see on the side of buildings advertising everything from oil to shaving cream."
+      },      
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/ElementalDesignLtdCrafted_v1_Back.webp",
+        "alt": "Elemental Works Sign",
+        "aspectRatio": "1/1",
+        "className": "bg-white w-1/3 mr-4"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is one of my last design as of May 2025.  My Toad's Marvel's of the Motoring world expresses my love of Mr. Toads Wild Ride at Disneland.  At first I wanted to use the term J. Thaddeus Toad, however that is a specificaly Disney name for him, so going back to the original story, yet still pushing the idea of a wild ride.  In my design, Mr Toad is now trying to get passing travellers to visit his museum of all things motoring.",
+        "className": "pt-4"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/GS-0000037_Mr-Toad-Marvels.png",
+        "alt": "Elemental Works Sign",
+        "aspectRatio": "1/1",
+        "className": "bg-white mr-4"
+      },
+      {
+        "type": "paragraph",
+        "text": "Below is a gallery of designs I made for this attempt at POD t-shirt direct to consumer sales website.  Many of these include some form of AI generation, though Hill Valley Fire Dept and the Tosche designs contains none, and the national parks only contain some as much as the background art, though this art was highly modified in Illustrator and/or photoshop to reduce color pallet, edit anything incorrect.  Most of these designs have tried to avoid direct copyright infringment.  Lucas, for instance never trademarked, or allowed the trademarks to lapse on most location names.  Using just the name does directly infringe on copyright.  Much of the Disney library of fairtales come from public domain, so I just had to find methods to make sure they are not directly tied to anything Disney.  I'd love to afford a Disney license for merchandise, however as a startup, that just isn't in the cards.",
+        "className": "pt-4"
+      },
+      {
+        "type": "grid",
+        "children": [
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000006-TatooineFireDept.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000001-HillValleyFireDept.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000009-KashyyykCanopyTours.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000017-HothExploreTheEndlessIce.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000013-CamelotFireDept.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000014-KingArthursFireBrigade.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000018-KaminoOceanRescue.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000019-HothNationalPark.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000020-OneChurroToRuleThemAll.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000021-DrinkingAroundTheWorld.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000023-TreasureIslandCoastGuard.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000027-TatooineNationalPark.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000030-BootsBountyNationalPark.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000031-TruffulaTreeNationalPark.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000032-WonderlandNationalPark.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000034-ToscheStation.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000035-AtlanticaNationalPreserve.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000036-GiantsCastleNationalMonument-V1.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000036-GiantsCastleNationalMonument-V2.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000011-GalacticScribble-AurebeshBlack.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000002-WelcomeToCoruscant.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          },
+          {
+            "type": "image",
+            "src": "https://cdn.bodwell.org/kevin/GS-0000003-MosEiseleyFireDept.jpg",
+            "alt": "Elemental Works Sign",
+            "aspectRatio": "1/1",
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+          }          
+        ]
+      },      
+      {
+        "type": "paragraph",
+        "text": "Many people think AI just produces ready for production art work on the first go.  Most of the concepts above took 6-8 hours minimum to make.  Brainstorming the ideas, then prompt engineering to get the right feel and tweaking, there are few of these designs that were less than 50 generations to get the base image we used.  Then converting to SVG and getting the right color pallete, layout, text and weathering.  If I were good at drawing and had a steady enough hand, this would all probably be a little faster.",
+        "className": "clear-both"
+      }
+    ]
+  },  
+  {
     "title": "Shopify Site Migration",
     "company": "Ripple Junction",
     "companySlug": "ripple-junction",
@@ -474,7 +731,7 @@
     "date": "September 2007 - August 2017",
     "description": "We went to a lot of trade shows, I spent a lot of time making them go smoothly.",
     "tags": ["woodworking", "Product Development", "Dovetail Joinery", "Sales", "Marketing", "Trade Shows"],
-    "slug": "wd-dovetails",
+    "slug": "wd-tradeshows",
     "homepage": false,
     "body": [  
       {
