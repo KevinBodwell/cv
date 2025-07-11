@@ -16,6 +16,47 @@
     ]
   },
   {
+    "title": "Garden Monorail",
+    "company": "Personal Projects",
+    "companySlug": "personal-projects",
+    "date": "January 2025 - Present",
+    "description": "Who doesn't love a monorail?  This project is my attempt to make a 1:25 scale monorail which can run outdoors.",
+    "tags": ["Model Railroading", "3D Printing", "Arduino", "Raspberry Pi"],
+    "slug": "garden-monorail",
+    "homepage": true,
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "This is a rather new project in 2025.  I recently got a 3d printer which opens up a whole new world of possibilities.  I have always wanted a working monorail model, and sure Disney sells a small toy version, however that version has never been a \"model\", it's just a toy."
+      },
+      {
+        "type": "paragraph",
+        "text": "I found that there is a model of the Walt Disney World monorail on one of the 3d printing websites, so I'm starting there for prototyping.  I downloaded the model and first printed at O Scale, finding that not really the size I was thinking, I starting slicing and dicing to print at 1:22.5 scale.  I'm still torn between 1:22.5 or 1:25 or even maybe going down to 1:32.  But this is a start."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/IMG_2095.JPEG"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/IMG_2109.JPEG"
+      },
+      {
+        "type": "paragraph",
+        "text": "At the scale I want to build it at, I'll need to redraw virtually everything.  My plan is to have operational doors, reasonably accurate lighting and of course I have to make room for controls and batteries."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.bodwell.org/kevin/IMG_1332.JPG",
+        "aspectRatio": "3/4"
+      },
+      {
+        "type": "paragraph",
+        "text": "My son, Phillip, also happens to be a Pilot on the Walt Disney World Monorail, shown here with his proud mother (and my wife), Audra."
+      }
+    ]
+  },  
+  {
     "title": "Galactic Scribble",
     "company": "Personal Projects",
     "companySlug": "personal-projects",
@@ -42,7 +83,7 @@
       },
       {
         "type": "paragraph",
-        "text": "I do understand that artists and creatives have strong feeling about AI, and I respect their feelings, however I temper that with the reality that as being in software development for many years, no one seems to care that many of us developers, engineers and architects are also facing the same challenges.  Yet anytime I bring this up, they tell me I don't understand and can never understand.  They tell me the AI companies training on their art, and yes, that is true, and they also trained on every public github repo too, and the asked neither of our groups if that was OK."
+        "text": "I do understand that artists and creatives have strong feeling about AI, and I respect their feelings, however I temper that with the reality that as being in software development for many years, no one seems to care that many of us developers, engineers and architects are also facing the same challenges.  Yet anytime I bring this up, they tell me I don't understand and can never understand.  They tell me the AI companies training on their art, and yes, that is true, and they also trained on every public github repo too, and they never asked either of our groups if that was OK."
       },
       {
         "type": "image",
@@ -61,7 +102,7 @@
       },
       {
         "type": "paragraph",
-        "text": "We don't have an advertising budget, so we rely on word of mouth and organic growth.  Over the past year, print on demand has gotten a lot more expensive yet consumers want to pay less and less.  As of June 2025 we turned off the store and are looking to rebrand and retool for a different product."
+        "text": "We don't have an advertising budget, so we rely on word of mouth and organic growth.  Over the past year, print on demand has gotten a lot more expensive yet consumers want to pay less and less.  As of June 2025 we turned off the store and are looking to rebrand and/or retool for a different product."
       },
       {
         "type": "paragraph",
@@ -76,7 +117,7 @@
       },
       {
         "type": "paragraph",
-        "text": "My elemental works logos started in Illustrator and Adobe Stock for inspiration, then for the orgingal I fed it back into AI for the pencil sketch effect."
+        "text": "My elemental works logos started in Illustrator and Adobe Stock for inspiration, then for the original I fed it back into AI for the pencil sketch effect."
       },
       {
         "type": "paragraph",
@@ -91,7 +132,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here is one of my last design as of May 2025.  My Toad's Marvel's of the Motoring world expresses my love of Mr. Toads Wild Ride at Disneland.  At first I wanted to use the term J. Thaddeus Toad, however that is a specificaly Disney name for him, so going back to the original story, yet still pushing the idea of a wild ride.  In my design, Mr Toad is now trying to get passing travellers to visit his museum of all things motoring.",
+        "text": "Here is one of my last designs as of May 2025.  My Toad's Marvel's of the Motoring world expresses my love of Mr. Toads Wild Ride at Disneyland.  At first I wanted to use the term J. Thaddeus Toad, however that is a specifically a Disney name for him, so going back to the original story, yet still pushing the idea of a wild ride.  In my design, Mr Toad is now trying to get passing travellers to visit his museum of all things motoring.",
         "className": "pt-4"
       },
       {
@@ -103,7 +144,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Below is a gallery of designs I made for this attempt at POD t-shirt direct to consumer sales website.  Many of these include some form of AI generation, though Hill Valley Fire Dept and the Tosche designs contains none, and the national parks only contain some as much as the background art, though this art was highly modified in Illustrator and/or photoshop to reduce color pallet, edit anything incorrect.  Most of these designs have tried to avoid direct copyright infringment.  Lucas, for instance never trademarked, or allowed the trademarks to lapse on most location names.  Using just the name does directly infringe on copyright.  Much of the Disney library of fairtales come from public domain, so I just had to find methods to make sure they are not directly tied to anything Disney.  I'd love to afford a Disney license for merchandise, however as a startup, that just isn't in the cards.",
+        "text": "Below is a gallery of some designs I made for this attempt at POD t-shirt direct to consumer sales website.  Many of these include some form of AI generation, though Hill Valley Fire Dept and the Tosche designs contains none, and the national parks only contain some as much as the background art, though this art was highly modified in Illustrator and/or photoshop to reduce color pallet, edit anything incorrect.  Most of these designs have tried to avoid direct copyright infringment.  Lucas, for instance never trademarked, or allowed the trademarks to lapse on most location names.  Using just the name does directly infringe on copyright.  Much of the Disney library of fairytales come from public domain, so I just had to find methods to make sure they are not directly tied to anything Disney.  I'd love to afford a Disney license for merchandise, however as a startup, that just isn't in the cards.",
         "className": "pt-4"
       },
       {
@@ -128,21 +169,24 @@
             "src": "https://cdn.bodwell.org/kevin/GS-0000009-KashyyykCanopyTours.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000017-HothExploreTheEndlessIce.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000013-CamelotFireDept.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
@@ -156,28 +200,32 @@
             "src": "https://cdn.bodwell.org/kevin/GS-0000018-KaminoOceanRescue.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000019-HothNationalPark.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000020-OneChurroToRuleThemAll.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000021-DrinkingAroundTheWorld.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
@@ -191,7 +239,8 @@
             "src": "https://cdn.bodwell.org/kevin/GS-0000027-TatooineNationalPark.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
@@ -226,42 +275,48 @@
             "src": "https://cdn.bodwell.org/kevin/GS-0000035-AtlanticaNationalPreserve.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000036-GiantsCastleNationalMonument-V1.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000036-GiantsCastleNationalMonument-V2.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000011-GalacticScribble-AurebeshBlack.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000002-WelcomeToCoruscant.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           },
           {
             "type": "image",
             "src": "https://cdn.bodwell.org/kevin/GS-0000003-MosEiseleyFireDept.jpg",
             "alt": "Elemental Works Sign",
             "aspectRatio": "1/1",
-            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4"
+            "className": "bg-white grid grid-cols-1 sm:grid-cols-2 gap-6 py-6 px-4",
+            "hidden": true
           }          
         ]
       },      

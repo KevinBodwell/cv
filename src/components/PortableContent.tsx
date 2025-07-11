@@ -14,6 +14,7 @@ export default function PortableContent({ content }: Props) {
   return (
     <>
       {content.map((block, idx) => {
+        if (block.hidden) return null;
         const key = `${block.type}-${idx}`;
 
         switch (block.type) {

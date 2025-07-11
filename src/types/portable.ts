@@ -11,6 +11,7 @@ export type PortableBlock =
 export interface BaseBlock {
   type: string;
   className?: string;
+  hidden?: boolean; // optional property to hide the block
 }
 
 export interface PortableHeading extends BaseBlock {
